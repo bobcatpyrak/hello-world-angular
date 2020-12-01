@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world-angular';
+  txt = "Hello";
+
+  clicked()
+  {
+    this.title = "Changed the title message";
+  }
 }
